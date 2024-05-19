@@ -3,7 +3,7 @@
     let itemCount = 10;
 
     function addListItem() {
-        const newItem = document.createElement('ol');
+        const newItem = document.createElement('li');
         newItem.textContent = `Item ${itemCount + 1}`;
         list.appendChild(newItem);
         itemCount++;
