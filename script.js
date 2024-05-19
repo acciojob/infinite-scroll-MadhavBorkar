@@ -2,9 +2,8 @@
     const list = document.getElementById('infi-list');
     let itemCount = 10;
 
-    // Function to create and append a new list item
     function addListItem() {
-        const newItem = document.createElement('li');
+        const newItem = document.createElement('ol');
         newItem.textContent = `Item ${itemCount + 1}`;
         list.appendChild(newItem);
         itemCount++;
